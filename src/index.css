@@ -1,0 +1,138 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+:root {
+  background-color: rgb(229,89,82)
+}
+
+/* Add CSS here */
+.card {
+    background-color: #ffff;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    max-width: 500px;
+}
+.card-image img {
+    height: 100%
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 2rem;
+}
+.card-body-contents {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.discount {
+    background-color: #F3EBC8;
+    border-radius: 50%;
+    color: #C2342A;
+    height: 3.25rem;
+    width: 3.25rem;
+    line-height: 3.25rem;
+    text-align: center;
+    transform: rotate(-10deg);
+    font-weight: bold;
+}
+
+h3 {
+    color: #2F5E73;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+p {
+    color: #9AA0AF;
+    font-size: 1rem;
+}
+
+input {
+    border: 1px solid #9AA0AF;
+    border-radius: 20px;
+    text-align: center;
+    padding: .5rem .75rem;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+button.submit {
+    border: 1px solid #9AA0AF;
+    border-radius: 20px;
+    text-align: center;
+    color: #FDFAFD;
+    background-color: #2F5E73;
+    padding: .5rem 4rem;
+    font-size: 1.25rem;
+}
