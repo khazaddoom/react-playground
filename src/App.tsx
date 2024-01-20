@@ -1,9 +1,11 @@
 import { Toaster } from "react-hot-toast";
-import FileUpload from "./components/FileUpload";
+import UsingReactQuery from "./components/UsingReactQuery";
 
 export default function App() {
   return <>
-    <FileUpload />
+    {/* <FileUpload /> */}
+    {/* <JHUBDataTable /> */}
+    <UsingReactQuery />
     <Toaster />
   </>
 }
